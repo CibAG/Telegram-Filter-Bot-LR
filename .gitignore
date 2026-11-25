@@ -1,0 +1,33 @@
+# Секреты и ключи
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+token.txt
+api_keys.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Локальные данные
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
